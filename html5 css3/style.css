@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+body p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+body ul,li,a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+header .top-header {
+    background: transparent;
+    padding: 20px 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+header .top-header .container .menu{
+    width: 48%;
+    display: inline-block;
+}
+
+header .top-header .menu:first-child a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+header .top-header .menu:last-child{
+    text-align: right;
+}
+
+header .top-header .menu .menu-button button {
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(43, 123, 243);
+}
+
+content .slider {
+    position: relative;
+    height: 650px;
+}
+
+content .slider img {
+    width: 100%;
+}
+
+content .slider .caption {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+content .slider .caption h2{
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+content .slider .caption input[type=search]{
+    font-size: 25px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    width: 80%;
+}
+
+content .slider .caption input[type=button]{
+    font-size: 24px;
+    border-radius: 3px;
+    border: transparent;
+    padding: 10px 15px;
+    margin-left: 20px;
+    background: rgb(43, 123, 243);
+    color: #fff;
+}
+
+content .card {
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(243, 243, 243, 0.562);
+    padding: 1px;
+}
+
+content .card .card-margin{
+    margin: 100px;
+}
+content .card .card-box{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+content .card .card-box p{
+    margin: 0 126px;
+}
+
+content .card .card-box img{
+    width: 120px;
+    height: auto;
+}
+
+content .block-description {
+    width: 101%;
+    margin: 0 0;
+}
+
+content .block-description .box{
+    display: inline-block;
+    width: 49%;
+}
+
+content .block-description .box:first-child{
+    vertical-align: top;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+content .block-description .box img{
+    width: 100%;
+    height: 531px;
+}
+
+content .block-description .box h3{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+content .block-description .box p{
+    width: 70%;
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+/**/
+
+content .block-description .box2{
+    display: inline-block;
+    width: 49%;
+}
+
+content .block-description .box2:last-child{
+    vertical-align: top;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+
+content .block-description .box2 img{
+    width: 102%;
+    height: 531px;
+}
+
+content .block-description .box2 h3{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+content .block-description .box2 p{
+    width: 70%;
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+/**/
+
+content .card-customers {
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(243, 243, 243, 0.562);
+    padding: 1px;
+}
+
+content .card-customers .customer-head h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+}
+
+content .card-customers .card-margin-customers{
+    margin: 100px;
+}
+content .card-customers .card-box-customers{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+content .card-customers .card-box-customers h3{
+    font-size: 30px;
+}
+
+content .card-customers .card-box-customers p{
+    margin: 0 126px;
+    font-size: 20px;
+}
+
+content .card-customers .card-box-customers img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+/**/
+content .slider-bottom {
+    position: relative;
+    height: 300px;
+}
+
+content .slider-bottom img{
+    width: 100%;
+    height: 300px;
+}
+
+content .slider-bottom .caption-bottom {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+content .slider-bottom .caption-bottom h2{
+    font-size: 30px;
+}
+
+content .slider-bottom .caption-bottom input[type=search]{
+    font-size: 25px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    width: 400px;
+    margin-left: 5px;
+}
+
+content .slider-bottom .caption-bottom input[type=button]{
+    font-size: 24px;
+    border-radius: 3px;
+    border: transparent;
+    padding: 10px 15px;
+    margin-left: 20px;
+    background: rgb(43, 123, 243);
+    color: #fff;
+}
+
+/**/
+footer .container .footer-box{
+    display: inline-block;
+    width: 48%;
+    margin: 50px 0;
+}
+footer .container .footer-box ul{
+    padding: 0;
+}
+footer .container .footer-box ul li{
+    display: inline;
+    margin: 0 10px;
+}
+footer .container .footer-box li a{
+    color: blue;
+}
+
+footer .container .footer-box:last-child{
+    text-align: end;
+}
